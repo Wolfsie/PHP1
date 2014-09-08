@@ -1,0 +1,187 @@
+html, body {
+	float: left;
+	background: url(img/bg.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.page-wrap{
+	float: left;
+	width: 90%;
+	height: 100%;
+	margin: 0 5%;
+}
+
+/*Header Code*/
+#header {
+	float: left;
+	width: 100%;
+	height: 10%;
+	background: transparent;
+	color: #F1D9C6;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+ul {
+	padding: 0;
+}
+ul li {
+	list-style: none;
+	margin: 0;
+}
+li {
+	display: inline-block;
+	margin-left:  20px;
+}
+li:nth-child(2) {
+	margin: 0 20px;
+}
+li a {
+	text-decoration: none;
+	color: #F1D9C6;
+	font-size: 36px;
+}
+
+/*Main Section Code*/
+section {
+	float: left;
+	width: 100%;
+	height: 70.7%;
+	padding: 20px 0;
+	color: #F1D9C6;
+	background-color: transparent;
+	margin: 0;
+}
+section .wrap {
+	width: 90%;
+	height: 95%;
+	margin: 2.5% 5%;
+	background: rgba(134, 165, 135, 0.65);
+	border-radius: 50px;
+}
+section .content {
+	padding: 50px 10px 0px 20px;
+	font-size: 20px;
+}
+
+/*Footer Code*/
+footer {
+	float: left;
+	width: 100%;
+	height: 10%;
+	padding: 20px 0;
+	color: #F1D9C6;
+	background: transparent;
+	margin: 0;
+}
+
+
+
+
+/*Content Code*/
+form, table {
+	width: 90%;
+	height: 100%;
+	margin: 25px auto;
+}
+form h1 {
+	margin: 0;
+	padding: 0;
+}
+input {
+	width: 100%;
+	clear: both;
+	float: left;
+	background: rgba(141, 100, 178, 0.45);
+	color: #F1D9C6;
+	border: 2px solid #F1D9C6;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+input::-webkit-input-placeholder {
+	color: #F1D9C6;
+}
+input.submitBtn {
+	color: #725944;
+	border: 2px solid #725944;
+	float: right;
+	width: 25%;
+	margin-top: 25px;
+	background: rgba(241, 217, 198, 0.75);
+}
+input:focus {
+	outline: none;
+}
+textarea {
+	width: 100%;
+	height: 100px;
+	clear: both;
+	float: left;
+	background: rgba(141, 100, 178, 0.45);
+	color: #F1D9C6;
+	border: 2px solid #F1D9C6;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+textarea:focus {
+	outline: none;
+}
+button {
+	color: #725944;
+	border: 2px solid #725944;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 20px;
+
+
+	float: right;
+	width: 25%;
+	margin-top: 25px;
+	background: rgba(241, 217, 198, 0.75);
+}
+button:focus {
+	outline: none;
+}
+form #commentClose {
+	float: left;
+	width: 5%;
+	font-size: 52px;
+	margin-top: -4%;
+}
+form h1 {
+	width: 95%;
+	float: left;
+}
+
+table {
+	margin-top: 50px;
+	background: rgba(141, 100, 178, 0.45);
+	border: 1px solid #F1D9C6;
+}
+tr {
+	border: none;
+}
+th {
+	width: 50%;
+	border: none;
+	border-bottom: 1px solid #F1D9C6;
+	background: #725944;
+	padding: 10px;
+	font-size: 24px;
+}
+td {
+	width: 50%;
+	border: none;
+	border-bottom: 1px solid #F1D9C6;
+	padding: 10px;
+}
